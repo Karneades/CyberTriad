@@ -8,7 +8,8 @@ security and their characteristics. I don't know where that's leading to and
 whether it has a value at all. But it's fun as a thought experiment anyways.
 Maybe it’s easier to discuss a future initiative with this _Triad_ in mind. So
 let's detect fragility and the position of different topics in the _Triad_ and 
-answer "What has more upside than downside?".
+answer "What has more upside than downside?" and "How to get from the left to
+the right?".
 
 As in the words of Nassim Taleb:
 
@@ -58,3 +59,7 @@ Triad!
 | anxiety of customer communication when security incident happens, fear of loss of reputation uncovers fragilities because it eventually gets public anyway | known and trained communication procedures, image of company is not affected by a security incident because of a one time issue and trust is still established | as with robust but customers and public will thanks for transparent communication and appreciate it with even more sales, "their communication is more transparent", conditional that the company is comparable in all other manners |
 | paying a hacker a sum to keep the reporter silent about a vulnerability | reduce exposure for all involved groups and for companies assets, user / customer information as needed | |
 | likewise paying ransom after ransomware attack | restore service according to procedures and bring clean environment back online | |
+| no vulnerability scanning because it could crash systems | vulnerability
+scanning knowing that the systems will be robust against scanning activities | |
+| know-how sharing through dedicated learning sessions | know-how sharing
+through self-learning and individual training programs | |
