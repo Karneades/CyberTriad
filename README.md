@@ -63,3 +63,9 @@ Triad!
 scanning knowing that the systems will be robust against scanning activities | |
 | know-how sharing through dedicated learning sessions | know-how sharing
 through self-learning and individual training programs | |
+
+When looking at the table, there are multiple topics which have low downside
+but bring a lot of upside, especially bug bounty programs, red teaming, threat
+hunting and research time for analysts and engineers. In this area the most
+upside is given due to the nature of the activity: most open to findings and
+new insights but in a controlled environment.
