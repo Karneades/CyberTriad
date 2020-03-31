@@ -31,6 +31,12 @@ uncertainty to improve the (cyber) security for all of us. To my dear reader,
 with just a click of pull request it’s possible to contribute to the Cyber
 Triad!
 
+**Afterthought** When looking at the table, there are multiple topics which
+have low downside but bring a lot of upside, especially bug bounty programs,
+red teaming, threat hunting and research time for analysts and engineers. In
+this areas the most upside is given due to the nature of the activity: most
+open to findings and new insights but in a controlled environment.
+
 | Fragile | Robust | Antifragile |
 | --------| ------ | ----------- |
 | no bug bounty program at all | bug bounty program for specific applications, limited scope | bug bounty for whole infrastructure, the real deal! |
@@ -63,9 +69,3 @@ Triad!
 scanning knowing that the systems will be robust against scanning activities | |
 | know-how sharing through dedicated learning sessions | know-how sharing
 through self-learning and individual training programs | |
-
-When looking at the table, there are multiple topics which have low downside
-but bring a lot of upside, especially bug bounty programs, red teaming, threat
-hunting and research time for analysts and engineers. In this area the most
-upside is given due to the nature of the activity: most open to findings and
-new insights but in a controlled environment.
