@@ -69,3 +69,4 @@ open to findings and new insights but in a controlled environment.
 | likewise paying ransom after ransomware attack | restore service according to procedures and bring clean environment back online | |
 | no vulnerability scanning because it could crash systems | vulnerability scanning knowing that the systems will be robust against scanning activities | |
 | know-how sharing through dedicated learning sessions | know-how sharing through self-learning and individual training programs | |
+| one security vendor | | security vendors as an industry |
