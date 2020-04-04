@@ -39,6 +39,7 @@ open to findings and new insights but in a controlled environment.
 
 | Fragile | Robust | Antifragile |
 | --------| ------ | ----------- |
+| companies against cyber attacks | | security teams inside companies in respect to cyber attacks |
 | no bug bounty program at all | bug bounty program for specific applications, limited scope | bug bounty for whole infrastructure, the real deal! |
 | bug bounty notification results in fixing only the exact location of the vulnerability | bug bounty notification results in fixing all similar issues on the same platform | bug bounty notification results in fixing all similar issues on all platforms, take all to the next level
 | no information sharing | information sharing internally | information sharing globally |
