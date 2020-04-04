@@ -46,6 +46,7 @@ open to findings and new insights but in a controlled environment.
 | searching for IOC like hash or IP to infrastructure after incident detection | | searching for TTPs in infrastructure | 
 | no threat hunting program | | threat hunting program |
 | security architecture in theory | security architecture centrally managed, every team must be supervised | security architecture decentralized managed, teams get their information from a central place but do their work on their own |
+| security incident without improvements afterwards | | security incident in one company with improvements and information sharing for other companies, means improvement overall |
 | no lessons learned after incident | | lessons learned with prevention and detection improvement |
 | | | threat intelligence and external information analysis
 | block malware without identified root cause | block malware with identified root cause for specific platform | block malware with identified root cause for all platforms |
