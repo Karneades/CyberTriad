@@ -86,13 +86,18 @@ typical non-linear process - at the beginning up to a point only a small
 impact is registered, most DDoS will be handled without issues but at the end
 only a minor addition to the bandwidth will crash the systems.
 
+Furthermore, imagine 10'000 small DDoS attacks with, say, 50MB/s. No issues at
+all. But now imagine one combined DDoS with 500GB/s and the system breaks
+despite having the exact same bandwidth usage as with the small but frequent
+ones. So not only the frequency but also the intensity is relevant.
+
 ```
                                 collapse
                                    +
       minor impact up to a point   |
   +------------------------------+ |
                                    |
-  +XXXXXXXXXXXXXXXXXX--------------+-------->  increase in bandwith
+  +XXXXXXXXXXXXXXXXXX--------------+-------->  increase in bandwidth
   |                  XXXXXXX
   |                         XXXXX
   |                             XX
