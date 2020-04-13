@@ -70,3 +70,56 @@ open to findings and new insights but in a controlled environment.
 | no vulnerability scanning because it could crash systems | vulnerability scanning knowing that the systems will be robust against scanning activities | |
 | know-how sharing through dedicated learning sessions | know-how sharing through self-learning and individual training programs | |
 | one security vendor | | security vendors as an industry |
+
+# Non-linearities in Cyber Security
+
+Fragility and antifragility come hand in hand with the notion of
+non-linearities. So instead of a constant (linear) progression, systems with
+non-linearities tend to have an acceleration between the input and the output,
+in the negative way or in the positive. With regard to prevention systems the
+non-linearity results in more negative impact.
+
+Let's see this non-linear progression in the example of a DDoS attack. Most
+system will be enough robust against small DDoS attacks and keep working when
+the flood increases to a point where the whole system breaks down. That's a
+typical non-linear process - at the beginning up to a point only a small
+impact is registered, most DDoS will be handled without issues but at the end
+only a minor addition to the bandwidth will crash the systems.
+
+```
+                                collapse
+                                   +
+      minor impact up to a point   |
+  +------------------------------+ |
+                                   |
+  +XXXXXXXXXXXXXXXXXX--------------+-------->  increase in bandwith
+  |                  XXXXXXX
+  |                         XXXXX
+  |                             XX
+  |                              XX
+  |                               XX
+  |                                X
+  |                                X
+  |                                X
+  |                                X
+  |                               X X
+  v                                X
+                                  X X
+harm
+```
+
+# Redundancy as an aspect of antifragility
+
+Everyone speaks of redundant systems to make systems are robust against
+failures. But redundancy has some aspects of antifragility which complement
+robustness. As with all detection and prevention mechanisms the question is,
+if in case of necessity the mechanisms is really available. How to test that
+redundancy really works as expected?
+
+If the detection mechanisms is based on specific logs but the logs are missing
+in the event of an attack, no detection is possible.
+
+The same applies for redundancy - if in case of an attack or a failure the
+fail-over to the redundant system is absent, the whole effort is
+useless. So as for the needed logs for detection, it's similar important to
+test and be sure that the redundancy is really available.
